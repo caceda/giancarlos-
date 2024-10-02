@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <title>Tienda Online</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <img src="https://vans.com.pe/cdn/shop/files/VN000D3HY28_ALT1.png?v=1698698660&width=493" alt="Producto 1">
+                <h2>par de zapatilla</h2>
+                <p>S/.70.00 </p>
+                <button onclick="agregarAlCarrito('Producto 1', 29.99)">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://belcorpperu.vtexassets.com/arquivos/ids/309045-1600-auto?v=638545968185570000&width=1600&height=auto&aspect=true" alt="Producto 2">
+                <h2>Perfume </h2>
+                <p>S/49.99</p>
+                <button onclick="agregarAlCarrito('Producto 2', 49.99)">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/118153242_01/w=1500,h=1500,fit=pad" alt="Producto 3">
+                <h2>Polera</h2>
+                <p>S/59.99</p>
+                <button onclick="agregarAlCarrito('Producto 3', 59.99)">Agregar al Carrito</button>
+            </div>
+            
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
